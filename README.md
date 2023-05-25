@@ -20,7 +20,7 @@ The Video to MP3 Converter Microservice is designed to convert video files into 
 
 ## Screenshots
 
-![App Screenshot](https://github.com/chaudhary-tushar/Mp3-converter-Microservice/blob/master/designarc.jpg)
+![App Screenshot](https://github.com/chaudhary-tushar/Mp3-converter-Microservice/blob/main/designarc.jpg)
 
 
 ## Key Features:
