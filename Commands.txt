@@ -1,0 +1,28 @@
+access command
+
+curl -X POST http://mp3converter.com/login -u <Email>:<Password>
+
+
+upload command
+
+curl -X POST -F "file=@2802215_hq.mp4" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNoYXVkaGFyeXR1c2hhcjAxNEBnbWFpbC5jb20iLCJleHAiOjE2ODM3NDcwNTgsImlhdCI6MTY4MzY2MDY1OCwiYWRtaW4iOnRydWV9.3HwG10fb89RiqAAf-VRt_PytU5kZWuHUI2zeqWyxdMg" http://mp3converter.com/upload
+
+
+download command
+ 
+curl --output pysound.mp3 -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImNoYXVkaGFyeXR1c2hhcjAxNEBnbWFpbC5jb20iLCJleHAiOjE2ODM3NDYwMTEsImlhdCI6MTY4MzY1OTYxMSwiYWRtaW4iOnRydWV9.6H_F6jERPOkMY_HGhoSvjuKnffwjMDcUTF-Vzpy4Mm0" "http://mp3converter.com/download?fid=645aa03d7b894bcc71663bbb"
+
+
+
+
+
+
+
+
+mongofiles --db=mp3s get_id 'ObjectId("64592235cc3339260f032061")' --local=test.mp3 
+
+mongofiles get_id  'ObjectId("64592235cc3339260f032061")'
+
+
+
+
